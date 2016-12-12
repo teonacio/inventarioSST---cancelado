@@ -1,0 +1,19 @@
+					----- INFORMAÇÕES SOBRE A INSTALAÇÃO -----
+
+1 - Habilitar o rewrite_module no wamp ou plataforma na qual for usar o programa;
+	Caso esteja usando WAMP:
+	- Abra o ícone do WAMP;
+	- Na aba APACHE, vá em APACHE MODULES;
+	- Procure REWRITE_MODULE. Caso não tenha um simbolo de confirmacao ao lado do nome, clique no nome e reinicie o WAMP.
+	
+2 - O banco de dados está na pasta "dados";
+
+3 - Caso altere a URL do sistema, por favor vá no arquivo "system/config.php", e altere as constantes "HOME_URI" e "LOGIN_URI" para a nova URL do sistema;
+
+4 - Informações sobre conexão com o banco de dados está no arquivo "system/DBconfig.php";
+
+5 - Caso esteja realizando manutenção, para ver os erros do sistema vá em "system/config.php" e mude a constante "DEBUG" para TRUE.
+	Quando acabar de realizar a manutenção, volte no mesmo arquivo e modifique o valor da mesma constante para FALSE;
+	
+6 - O usuário cujo ID seja 1 é o usuário padrão, ou seja o único usuário que tem permissão para deletar outros usuários (Permissão diferenciada APENAS para esse usuário,
+		escrita no próprio código por esse motivo);
