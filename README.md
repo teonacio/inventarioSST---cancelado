@@ -1,2 +1,2 @@
-# inventarioSST---cancelado
-Projeto de inventário (SST - BCZM) em PHP/MySQL.
+# Inventário (Site)
+Projeto de inventário de livros em PHP/MySQL.
